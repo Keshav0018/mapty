@@ -87,8 +87,7 @@ a:visited {
 .workout__title {
   font-size: 1.7rem;
   font-weight: 600;
-  grid-column: 1 / 4;
-  grid-row: 1;
+  grid-column: 1 / -1;
 }
 
 .workout__details {
@@ -218,20 +217,4 @@ a:visited {
 }
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
-}
-
-.btn-delete {
-  grid-column: 4/5;
-  font-size: 20px;
-  border-radius: 900px;
-  width: 20px;
-  height: 20px;
-  border: none;
-  background-color: rgb(242, 58, 58);
-  color: white;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-self: flex-end;
 }

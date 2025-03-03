@@ -268,10 +268,11 @@ class App {
     }
 
     form.insertAdjacentHTML(`afterend`, html);
-    const btnDelete = document.querySelector('.btn-delete');
+    const btnDelete = (document.querySelector('.btn-delete').style.display =
+      'none');
 
     btnDelete.addEventListener('click', function (e) {
-   // to be continued
+      // to be continued
     });
   }
 
